@@ -21,6 +21,7 @@ p {
 .img-flex {
   position: relative;
   width: 100%;
+  display: block;
 
 }
 
@@ -52,11 +53,8 @@ p {
 
 div {
   position: absolute;
-  float: right;
   left: 20rem;
   top: 10rem;
-}
-
-span {
-
+  max-height: 500px;
+  overflow: hidden;
 }
