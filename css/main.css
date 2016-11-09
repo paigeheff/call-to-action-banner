@@ -18,10 +18,6 @@ p {
 
 }
 
-footer {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 .img-flex {
   position: relative;
   width: 100%;
@@ -40,10 +36,13 @@ footer {
   padding: 1rem;
   border-radius: 8px;
   border-width: 3px;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.btn a:hover {
+.btn:hover {
   background: #000;
+  text-decoration: none;
 }
 
 .banner {
