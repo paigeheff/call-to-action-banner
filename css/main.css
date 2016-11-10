@@ -58,3 +58,7 @@ div {
   max-height: 500px;
   overflow: hidden;
 }
+
+body {
+  margin: 0;
+}
