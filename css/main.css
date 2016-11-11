@@ -27,8 +27,7 @@ p {
 
 .img-circle {
   float: left;
-  width: 100%;
-  max-width: 25%;
+  width: 200px;
 }
 
 .btn {
@@ -51,7 +50,7 @@ p {
   overflow: hidden;
 }
 
-div {
+.banner-body {
   position: absolute;
   left: 20rem;
   top: 10rem;
@@ -61,4 +60,8 @@ div {
 
 body {
   margin: 0;
+}
+
+.banner-text {
+  float: right;
 }
